@@ -1,0 +1,28 @@
+#navbar{
+    border: 1px solid red;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+}
+
+#navbar>a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#input{
+    margin: auto;
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-bottom: 20px;
+}
+#input>input{
+    margin-left: 15%;
+    margin-top: 20px;
+}
+#submit{
+    margin-left: 35%;
+ 
+}
