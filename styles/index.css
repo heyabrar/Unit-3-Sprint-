@@ -1,8 +1,15 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 #navbar{
-    border: 1px solid red;
+    border: 1px solid black;
     display: flex;
     height: 50px;
     justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    align-items: center;
 }
 
 #navbar>a{
@@ -13,16 +20,33 @@
 
 #input{
     margin: auto;
-    width: 20%;
-    margin-top: 20px;
-    border: 1px solid black;
+    width: 18%;
+    margin-top: 50px;
     padding-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 #input>input{
-    margin-left: 15%;
+    margin-left: 25%;
     margin-top: 20px;
+    height: 30px;
 }
 #submit{
-    margin-left: 35%;
- 
+    margin-left:40%;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+    height: 30px;
+}
+
+#submit:hover{
+    color: white;
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
 }
